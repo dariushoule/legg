@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "legg",
+  "version": "${version}",
+  "name": "Legg",
+  "description": "Zombies can drop legs on death. ",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/legg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "justtwobears.legg.client.LeggClient"
+    ],
+    "main": [
+      "justtwobears.legg.Legg"
+    ]
+  },
+  "mixins": [
+    "legg.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
