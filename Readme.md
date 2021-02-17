@@ -1,4 +1,4 @@
-Legg: Zombies drop their legs on death
+[MineCraft Fabric Mod] Legg: Zombies drop their legs on death
 ==============================
 
 Adds zombie legs as an occasional drop from killed zombies. Zombie
